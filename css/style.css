@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+input{
+    border: none;
+    outline: none;
+    text-align: center;
+  background-color: #ccc;
+}
+.main_input{
+    border: 1px solid black;
+    width: 300px;
+    height:50px;
+    padding: 0 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.main_input.placeholder{
+    font-size: 20px;
+}
+#main{
+ width: 50%;
+}
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.no{
+    margin: 0 5px;
+    width: 25px;
+   
+}
+.no h3{
+    width: 25px;
+}
+.name h3{
+    width: 125px;
+}
+.price{
+    width: 50px;
+    font-size: 16px;
+}
+.apple{
+    width: 50px;
+}
+.tot{
+    width: 80px;
+}
+.total_div{
+    display: flex;
+}
+.total{
+    display: none;
+}
+.bills{
+    display: none;
+}
+.prints{
+    width: 300px;
+    background-color: aliceblue;
+    position: absolute;
+    top:50px;
+    right: 50%;
+    transform: translateX(50%);
+    padding: 20px 10px;
+    display: none;
+}
+.tag{
+    display: flex;
+    justify-content: space-evenly;
+}
+.li{
+    display: flex;
+    justify-content: space-evenly;
+}
+.thanks{
+    text-align: center;
+}
